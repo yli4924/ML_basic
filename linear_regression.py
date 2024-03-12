@@ -1,3 +1,6 @@
+import numpy as np
+
+
 n,p,k = 100, 8, 3
 X=np.random.random([n,k])
 W=np.random.random([k,p])
